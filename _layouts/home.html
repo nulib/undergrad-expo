@@ -20,50 +20,44 @@ layout: default
 
     <div id="page">
       <main class="content" id="main-content">
+
         {% include hero-image.html %}
 
         <div class="section contain-1120">
-          <div class="section">
-            <div class="section-top contain-970">
-              <h3>Browse</h3>
+        <div class="section">
+          <div class="section-top contain-970">
+              <p class="subhead">The annual forum for undergraduate research and creative work at Northwestern.</p>
+              <div style="overflow:hidden;padding-bottom:56.25%;position:relative;height:0;margin-top:2rem;">
+                  <iframe style="left:0;top:0;height:100%;width:100%;position:absolute;" src="{{ page.youtube }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
             </div>
-        </div>
-        	<div class="alternate-photo-float">
-        		<div class="image-left">
-        			<img alt="Shane Larson at Computational Research Day 2018" title="Shane Larson at Computational Research Day 2018" src="/assets/images/Shane-Larson.jpg"/>
-        		</div>
-        		<div class="text">
-        			<h4><a href="/speakers/">Presentation Abstracts</a></h4>
-        			<p>Keynote addresses from <a href="https://ischool.illinois.edu/people/faculty/vcs">Victoria Stodden</a>, Associate Professor of Information Sciences, <a href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a> & <a href="http://sciencejedi.com/professional/">Shane Larson</a>, Associate Director of <a href="http://ciera.northwestern.edu/">CIERA (Center for Interdisciplinary Exploration and Research in Astrophysics</a> at Northwestern University. Morning and afternoon sessions featuring Northwestern faculty and graduate students. <a href="/speakers/" title="Speakers">Browse abstracts from this year's presentations</a>.</p>
-        		</div>
+          <div class="section-top contain-970">
+            <h3>Browse</h3>
+          </div>
+        	<div class="photo-feature-2-across">
+        		<article class="photo-feature">
+        			<a href="/posters/">
+        				<img alt="image description" style="width:720px;height:350px;" src="/assets/images/2017/presentation.jpg"/>
+        				<div class="text-over-image">
+        					<h4>Presentations</h4>
+        					<p class="link">View Subjects</p>
+        				</div>
+        			</a>
+        		</article>
+        		<article class="photo-feature">
+        			<a href="/posters/">
+        				<img alt="image description" style="width:720px;height:350px;" src="/assets/images/2017/polycrystalline-3.png"/>
+        				<div class="text-over-image">
+        					<h4>Posters</h4>
+        					<p class="link">View Subjects</p>
+        				</div>
+        			</a>
+        		</article>
         	</div>
-        	<div class="alternate-photo-float">
-        		<div class="text">
-        			<h4><a href="/posters/">Posters</a></h4>
-        			<p>Selected poster presentations highlighting Northwestern student and postdoctoral research are available and archived by the library. <a href="/posters/" title="Posters">Browse posters from this year's poster session</a>.</p>
-        		</div>
-        		<div class="image-right">
-        			<img alt="Poster Session at Computational Research Day 2018" title="Poster Session at Computational Research Day 2018" src="/assets/images/poster-session.jpg"/>
-        		</div>
-        	</div>
-        	<div class="alternate-photo-float">
-        		<div class="image-left">
-        			<img alt="image description" style="width:550px;height:310px;" src="/assets/images/2018/davidhead_animation.gif"/>
-        		</div>
-        		<div class="text">
-            	<h4><a href="/visualizations/">Visualizations</a></h4>
-        			<p>Selected visualizations created by Northwestern students and postdoctoral researchers are presented as images, videos, and interactive graphics. <a href="/visualizations/" title="Visualizations">Browse visualizations from this year's visualization contest</a>.</p>
-        		</div>
-        	</div>
+          <p>{{ content }}</p>
         </div>
-        <div class="contain-970">
-          <div class="section">
-            <div class="section-top contain-970">
-              <h3>About</h3>
-            </div>
-            <p>{{ content }}</p>
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
     <footer>
         <div class="contain-970">

@@ -54,10 +54,10 @@ collections:
     permalink: /:path/
   posters:
     output: true
-    permalink: /:collection/:path/
-  visualizations:
+    permalink: /:collection/:year/:path/
+  presentations:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:year/:path/
 
 # Defaults
 defaults:
@@ -71,7 +71,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "visualizations"
+      type: "presentations"
     values:
-      layout: "visualization"
-      format: "Visualization"
+      layout: "presentation"
+      format: "Presentation"

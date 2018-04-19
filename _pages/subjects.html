@@ -11,15 +11,15 @@ The following part extracts all the tags from your posts and sort tags, so that 
 =======================
 {% endcomment %}
 {% assign rawtags = "" %}
-{% for post in site.visualizations %}
-	{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% for post in site.presentations %}
+	{% assign ttags = post.major | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
 
 {% assign rawtags = "" %}
 {% for post in site.posters %}
-	{% assign ttags = post.tags | join:'|' | append:'|' %}
+	{% assign ttags = post.major | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
@@ -52,7 +52,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 	<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
   <hr>
 
-    {% for post in site.visualizations %}
+    {% for post in site.presentations %}
     {% if post.tags contains tag %}
 
 		<article class="news">
