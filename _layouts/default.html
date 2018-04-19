@@ -1,0 +1,21 @@
+<!-- nuwebcomm header-footer-template/index.com: https://github.com/nuwebcomm/templates/blob/master/header-footer-template/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/assets/css/print.css" type="text/css" media="print" />
+    <!--[if lt IE 9]><script src="//common.northwestern.edu/v8/js/html5shiv-printshiv.js"></script><![endif]-->
+    <title>{{ site.title }} | Northwestern University</title>
+    {% if page.tag %}
+    {% include metadata.html %}
+    {% endif %}
+</head>
+
+  {% include analytics.html %}
+
+  {{ content }}
+</html>

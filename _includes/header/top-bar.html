@@ -1,0 +1,24 @@
+<div id="top-bar">
+    <div class="contain-1120">
+        <div id="left">
+            <div id="northwestern">
+                <a href="http://www.northwestern.edu/" title="Northwestern University Home"><span class="hide-label">Northwestern University</span></a>
+            </div>
+        </div>
+        <div id="global-links" aria-label="global links navigation">
+
+          <ul>
+            {% for link in site.data.global-links.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li>
+                <a href="{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+    </div>
+</div>

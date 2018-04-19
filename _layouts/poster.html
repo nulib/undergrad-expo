@@ -1,0 +1,112 @@
+---
+layout: default
+---
+<body class="landing-page">
+    <a id="top"></a>
+    <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
+    <!--[if lt IE 9]>
+    <div id="ie">
+        <p><img src="https://common.northwestern.edu/v8/css/images/icons/ie-warning.png" alt="Warning icon" /> Your browser is <strong>out-of-date</strong> and has known <strong>security flaws</strong>. We recommend you update your browser: <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> - <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> - <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> - <a href="https://www.apple.com/safari/" target="_blank">Safari</a>.</p>
+    </div>
+    <![endif]-->
+    <header>
+        <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
+        {% include header/top-bar.html %}
+        {% include header/bottom-bar.html %}
+        {% include header/mobile-links.html %}
+    </header>
+
+            {% include navigation.html %}
+
+        <div id="page">
+
+        {% include scribd.html %}
+
+          <main id="main-content" class="content">
+
+            <div class="section background-select">
+            	<!-- note: no section top -->
+            	<div class="background-select-image">
+            		<div class="contain-970">
+            			<h3>{{ page.tag }}</h3>
+                  {% if page.award %}
+                  <h4>{{ page.award }}</h4>
+                  {% endif %}
+            			<p class="subhead">{{ page.title }}</p>
+                  <h4>{{ page.authors }}</h4>
+                  <h6 style="color:#4e2a84">{{ page.department }}</h6>
+                  <h6 style="color:#000;">{{ page.date | date: "%B, %Y" }}
+                  <h6>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></h6>
+            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
+            		</div>
+            	</div>
+            </div>
+
+            <body class="standard-content narrow-content">
+              <div class="contain-970">
+                <h3>Abstract</h3>
+                <p>{{ page.abstract }}</p>
+              </div>
+            </body>
+
+            <div class="section contain-970">
+                <h3>Related</h3>
+
+              {% comment %}---> the maximum number of related to posts
+                                  to be printed {% endcomment %}
+                {% assign maxRelated = 2 %}
+
+                {% comment %}---> the minimum number of common tags
+                                  to have for a post to be considered
+                                  as a related post {% endcomment %}
+                {% assign minCommonTags =  1 %}
+
+                {% assign maxRelatedCounter = 0 %}
+
+                {% for post in site.posters %}
+
+                  {% assign sameTagCount = 0 %}
+                  {% assign commonTags = '' %}
+
+                  {% for tag in post.tags %}
+                    {% comment %}---> Only compare if post is
+                                      not same as current page {% endcomment %}
+                    {% if post.url != page.url %}
+                      {% if page.tags contains tag %}
+                        {% assign sameTagCount = sameTagCount | plus: 1 %}
+                        {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+                        {% assign commonTags = commonTags | append: tagmarkup %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+
+                  {% if sameTagCount >= minCommonTags %}
+                  <div style="margin-top:2em;">
+                  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                  <h6>{{ post.authors }}, {{ post.department }}</h6>
+                  <p>{{ post.abstract | truncatewords: 75 }}<a href="{{ post.url }}">Read on</a></p>
+                  </div>
+                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                    {% if maxRelatedCounter >= maxRelated %}
+                      {% break %}
+                    {% endif %}
+                  {% endif %}
+
+                {% endfor %}
+
+               </div>
+             </div>
+          </main>
+        </div>
+
+    <footer>
+        <div class="contain-970">
+            {% include footer/required-links.html %}
+            {% include footer/contact-info.html %}
+            {% include footer/social-media.html %}
+            {% include footer/more-info.html %}
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+</body>

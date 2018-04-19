@@ -1,0 +1,28 @@
+<div id="mobile-links">
+    <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
+    <nav id="mobile-nav" aria-label="mobile menu">
+        <ul>
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li tabindex="0"><a href="{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a></li>
+              {% endfor %}
+        </ul>
+    </nav>
+    <!-- mobile search disables
+    <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
+    <div id="mobile-search">
+<div class="search-form searchblox">
+  <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+                <label class="hide-label" for="q-mobile">Search this website</label>
+                <input id="q-mobile" name="query" placeholder="Search this site" type="text"/>
+                <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+                <input type="hidden" name="advanced" value="false"/>
+                <button type="submit"><span class="hide-label">Search</span></button>
+  </form>
+</div>
+</div> -->
+</div>

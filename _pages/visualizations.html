@@ -1,0 +1,23 @@
+---
+layout: page
+permalink: /visualizations/
+title: "Visualizations"
+nav_title: "Subjects"
+---
+
+{% include group-by-array collection=site.visualizations field='tag' %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+
+    <h3><a id="{{ tag }}">{{ tag }}</a></h3>
+    <hr>
+      {% for post in posts %}
+      <article class="news">
+        <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}{% if post.award %} ({{ post.award }}){% endif %}</a></h4>
+        <h5 style="color: grey">{{ post.authors }}</h5>
+        <div class="news-date" style="color:#4e2a84;">{{ post.department }}</div>
+        <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ post.url }}">View the visualization.</a></div>
+      </article>
+      {% endfor %}
+{% endfor %}
