@@ -90,7 +90,7 @@ layout: default
                     {% comment %}---> Only compare if post is
                                       not same as current page {% endcomment %}
                     {% if post.url != page.url %}
-                      {% if page.tags contains tag %}
+                      {% if page.major contains tag %}
                         {% assign sameTagCount = sameTagCount | plus: 1 %}
                         {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
                         {% assign commonTags = commonTags | append: tagmarkup %}
@@ -101,8 +101,8 @@ layout: default
                   {% if sameTagCount >= minCommonTags %}
                   <div style="margin-top:2em;">
                   <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                  <h6>{{ post.authors }}, {{ post.major }}</h6>
-                  <p>{{ post.abstract | truncatewords: 75 }}<a href="{{ post.url }}">Read on</a></p>
+                  <h6>{{ post.author }}, {{ post.major }}</h6>
+                  <p>{{ post.abstract | truncatewords: 75 }}<a href="{{ post.url }}">View the poster.</a></p>
                   </div>
                     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
                     {% if maxRelatedCounter >= maxRelated %}
