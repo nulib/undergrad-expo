@@ -33,7 +33,7 @@ layout: default
                   <h4>{{ page.award }}</h4>
                   {% endif %}
             			<p class="subhead">{{ page.title }}</p>
-                  <h4>{{ page.author }}</h4>
+                  <h4 style="font-weight:bold;">{{ page.author }}</h4>
                   <h5 style="font-weight:bold;">{{ page.college }}</h5>
                   <h6 style="color:#4e2a84">Faculty Advisor: {{ page.faculty_advisor }}</h6>
                   <h6 style="color:#000;">
@@ -46,7 +46,13 @@ layout: default
                     {% endif %}
                   </h6>
                   <h6>DOI: <a href="https://doi.org/{{page.doi}}"> {{ page.doi }}</a></h6>
-            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
+                  <h6>Download:</h6>
+                  {% if page.poster_pdf %}
+            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Poster</a>
+                  {% endif %}
+                  {% if page.thesis_pdf %}
+                  <a class="button" target="_blank" href="{{ page.thesis_pdf }}">Thesis</a>
+                  {% endif %}
             		</div>
             	</div>
             </div>

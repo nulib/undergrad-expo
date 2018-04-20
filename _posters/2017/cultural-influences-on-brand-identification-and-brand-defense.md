@@ -4,7 +4,7 @@ title: "Cultural Influences on Brand Identification and Brand Defense"
 date: 2017-06-06
 college: "Weinberg College of Arts and Sciences"
 author: "Jiaqi Yu"
-doi: "10.21985/N2KS3V"
+doi: "10.21985/N2W993"
 poster_pdf: "/assets/pdfs/2017/Cultural-Influences-on-Brand-Identification-and-Brand-Defense.pdf"
 thesis_pdf: "/assets/pdfs/2017/Yu_Jiaqi_finalhonorsthesis.pdf"
 major: "Psychology"
@@ -59,7 +59,7 @@ abstract: "According to Lisjak, Lee, and Gardner (2012), a threat to a brand can
 - Main effect of brand category on defensiveness
 - Marginal interaction between culture and information agent for the clothing brand ONLY
 
-![Figure 2](/assets/images/2017/cultural-influences-on-brand-identities-2.png){: .align-center}
+![Figure 2](/assets/images/2017/cultural-influences-on-brand-identification-2.png){: .align-center}
 
 #### Study 2
 ##### Study 1 Limitations
