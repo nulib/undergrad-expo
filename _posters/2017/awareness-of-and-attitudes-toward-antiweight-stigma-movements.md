@@ -12,6 +12,9 @@ senior_thesis: true
 our_funding: true
 faculty_advisor: "Renee Engeln"
 abstract: "A survey of adults (n = 706) found low levels of awareness of two social movements aimed at decreasing weight stigma: the Fat Acceptance Movement and Health at Every Size movement. For HAES, providing a brief story of an overweight person who endorses HAES improved perceptions of the movement."
+# scribd embed
+scribd_src: "https://www.scribd.com/embeds/376928409/content?start_page=1&view_mode=scroll&access_key=key-H60O5iqmBIlr6bN6HS8R&show_recommendations=true"
+scribd_id: "doc_11757"
 ---
 #### Introduction
 Overweight individuals are often stigmatized, and stereotyped as lazy, dirty or immoral (Lewis et al., 1997), as well as pressured to diet and exercise to lose weight (Gard & Wright, 2005). For most people, diets are ineffective in the long-term (Puhl and Heuer, 2010); and weight cycling can lead to harmful health consequences (Bacon & Aphramor,2011). Two social movements have emerged to combat weight stigma: the Fat Acceptance Movement (FAM) and the Heath at Every Size Movement (HAES). Previous research has indicated that a supportive community of fellow overweight people may help motivate individuals to exercise and make healthier choices (Lewis et al. 2010). The present study examined whether individuals were aware of the FAM or HAES movements as well as attitudes toward these movements. Additionally, an experiment built into the survey examined whether providing a short story about an

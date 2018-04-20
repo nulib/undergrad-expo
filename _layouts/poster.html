@@ -19,9 +19,9 @@ layout: default
             {% include navigation.html %}
 
         <div id="page">
-        <!--
+
         {% include scribd.html %}
-      -->
+
           <main id="main-content" class="content">
 
             <div class="section background-select">
@@ -37,7 +37,7 @@ layout: default
                   <h5 style="font-weight:bold;">{{ page.college }}</h5>
                   <h6 style="color:#4e2a84">Faculty Advisor: {{ page.faculty_advisor }}</h6>
                   <h6 style="color:#000;">
-                    {{ page.date | date: '%Y' }}
+                    Completed in {{ page.date | date: '%Y' }}
                     {% if page.senior_thesis == true %}
                      Senior Thesis
                     {% endif %}
