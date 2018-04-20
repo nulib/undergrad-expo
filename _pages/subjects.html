@@ -53,20 +53,20 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
   <hr>
 
     {% for post in site.presentations %}
-    {% if post.tags contains tag %}
+    {% if post.major contains tag %}
 
 		<article class="news">
 			<h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
 			<h5 style="color: grey">{{ post.authors }}</h5>
 			<div class="news-date" style="color:#4e2a84;">{{ post.department }}</div>
-			<div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ poster.url }}">View the visualization.</a></div>
+			<div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ post.url }}">View the presentation.</a></div>
 		</article>
 
 	 {% endif %}
 	 {% endfor %}
 
 	 {% for post in site.posters %}
-	 {% if post.tags contains tag %}
+	 {% if post.major contains tag %}
 
 	 <article class="news">
 		 <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
