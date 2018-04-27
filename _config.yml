@@ -54,10 +54,10 @@ collections:
     permalink: /:path/
   posters:
     output: true
-    permalink: /:collection/:year/:path/
+    permalink: /:collection/:year/:title/
   presentations:
     output: true
-    permalink: /:collection/:year/:path/
+    permalink: /:collection/:year/:title/
 
 # Defaults
 defaults:
