@@ -1,6 +1,4 @@
 main:
-  - title: "About"
-    url: /about/
   - title: "Posters"
     url: /posters/
   - title: "Presentations"
