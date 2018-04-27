@@ -10,11 +10,11 @@ nav_title: "Subjects"
 {% for subject in group_names %}
   {% assign posts = group_items[forloop.index0] %}
 
-    <h3><a id="{{ subject }}">{{ subject }}</a></h3>
+    <h3 id="{{ subject }}">{{ subject }}</h3>
     <hr>
       {% for post in posts %}
       <article class="news">
-        <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}{% if post.award %} ({{ post.award }}){% endif %}</a></h4>
+        <h4 class="news-title" style="font-weight:bold;"><a href="{{ post.url }}">{{ post.title }}{% if post.award %} ({{ post.award }}){% endif %}</a></h4>
         <h5 style="color: grey">{{ post.authors }}</h5>
         <div class="news-date" style="color:#4e2a84;">{{ post.department }}</div>
         <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ post.url }}">View the presentation.</a></div>
