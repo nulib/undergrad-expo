@@ -11,14 +11,7 @@ The following part extracts all the tags from your posts and sort tags, so that 
 =======================
 {% endcomment %}
 {% assign rawtags = "" %}
-{% for post in site.presentations %}
-	{% assign ttags = post.major | join:'|' | append:'|' %}
-	{% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
-
-{% assign rawtags = "" %}
-{% for post in site.posters %}
+{% for post in site.documents %}
 	{% assign ttags = post.major | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}

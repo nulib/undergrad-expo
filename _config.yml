@@ -48,7 +48,6 @@ sass:
   style: compressed
 
 # Collections
-collections_dir: expo
 collections:
   pages:
     output: true
