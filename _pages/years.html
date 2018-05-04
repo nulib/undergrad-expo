@@ -14,7 +14,7 @@ nav_title: "Browse"
 			{% for post in year.items %}
 			<article class="news">
 				<h4 class="news-title" style="font-weight:bold;"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-				<h6>{{ post.author }}</h6>
+				<div class="news-date">{{ post.author }}, {{ post.major }}</div>
 				<div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ post.url }}">View the presentation.</a></div>
 	    </article>
 			{% endfor %}
