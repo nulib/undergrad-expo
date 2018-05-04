@@ -68,6 +68,7 @@ defaults:
     values:
       layout: "poster"
       format: "Poster"
+      research: true
   -
     scope:
       path: ""
@@ -75,3 +76,4 @@ defaults:
     values:
       layout: "presentation"
       format: "Presentation"
+      research: true
