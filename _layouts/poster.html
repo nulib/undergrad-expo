@@ -47,8 +47,8 @@ layout: default
                   </h6>
                   <h6>DOI: <a href="https://doi.org/{{page.doi}}" target="_blank"> {{ page.doi }}</a></h6>
                   <h6>Download:</h6>
-                  {% if page.poster_pdf %}
-            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Poster</a>
+                  {% if page._pdf %}
+            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Slides</a>
                   {% endif %}
                   {% if page.thesis_pdf %}
                   <a class="button" target="_blank" href="{{ page.thesis_pdf }}">Thesis</a>

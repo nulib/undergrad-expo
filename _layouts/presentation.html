@@ -20,7 +20,7 @@ layout: default
 
         <div id="page">
 
-        {% include visualization-header.html %}
+        {% include scribd.html %}
 
           <main id="main-content" class="content">
 
@@ -28,19 +28,22 @@ layout: default
             	<!-- note: no section top -->
             	<div class="background-select-image">
             		<div class="contain-970">
-            			<h3>{{ page.tag }}</h3>
-                  {% if page.award %}
-                  <h4>{{ page.award }}</h4>
-                  {% endif %}
+            			<h3>{{ page.major }}</h3>
             			<p class="subhead">{{ page.title }}</p>
-                  <h4>{{ page.authors }}</h4>
-                  <h6 style="color:#4e2a84">{{ page.department }}</h6>
-                  <h6 style="color:#000;">{{ page.date | date: "%B, %Y" }}
-                  {% if page.poster.pdf %}
-            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Download</a>
-                  {% endif %}
-                  {% if page.project_url %}
-                  <a class="button" target="_blank" href="{{ page.project_url }}">Visit Project Website</a>
+                  <h4>{{ page.author }}</h4>
+                  <h6 style="color:#4e2a84">{{ page.college }}</h6>
+                  <h6 style="color:#4e2a84">Faculty Advisor: {{ page.faculty_advisor }}</h6>
+                  <h6 style="color:#000;">
+                    Completed in {{ page.date | date: '%Y' }}
+                    {% if page.senior_thesis == true %}
+                     Senior Thesis
+                    {% endif %}
+                    {% if page.our_funding %}
+                    with funding from O.U.R.
+                    {% endif %}
+                  </h6>
+                  {% if page.slides_pdf %}
+            			<a class="button" target="_blank" href="{{ page.slides_pdf }}">Slides</a>
                   {% endif %}
             		</div>
             	</div>
@@ -48,60 +51,9 @@ layout: default
 
             <body class="standard-content narrow-content">
               <div class="contain-970">
-                {{ content }}
+                <h3>Abstract</h3>
+                {{ page.abstract }}
               </div>
-            </body>
-
-            <body class="landing-page">
-
-            <div class="section contain-970" style="margin-top:2em;">
-                <h3>Related</h3>
-
-              {% comment %}---> the maximum number of related to posts
-                                  to be printed {% endcomment %}
-                {% assign maxRelated = 2 %}
-
-                {% comment %}---> the minimum number of common tags
-                                  to have for a post to be considered
-                                  as a related post {% endcomment %}
-                {% assign minCommonTags =  1 %}
-
-                {% assign maxRelatedCounter = 0 %}
-
-                {% for post in site.visualizations %}
-
-                  {% assign sameTagCount = 0 %}
-                  {% assign commonTags = '' %}
-
-                  {% for tag in post.tags %}
-                    {% comment %}---> Only compare if post is
-                                      not same as current page {% endcomment %}
-                    {% if post.url != page.url %}
-                      {% if page.tags contains tag %}
-                        {% assign sameTagCount = sameTagCount | plus: 1 %}
-                        {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-                        {% assign commonTags = commonTags | append: tagmarkup %}
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if sameTagCount >= minCommonTags %}
-                    <div style="margin-top:2em;">
-                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                    <h6>{{ post.authors }}, {{ post.department }}</h6>
-                    <p>{{ post.abstract | truncatewords: 75 }}<a href="{{ post.url }}">Read on</a></p>
-                    </div>
-                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-                    {% if maxRelatedCounter >= maxRelated %}
-                      {% break %}
-                    {% endif %}
-                  {% endif %}
-
-                {% endfor %}
-
-            </div>
-             </div>
-            </body
           </main>
         </div>
     <footer>
