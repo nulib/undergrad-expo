@@ -20,7 +20,9 @@ layout: default
 
         <div id="page">
 
+        {% if page.scribd_src %}
         {% include scribd.html %}
+        {% endif %}
 
           <main id="main-content" class="content">
 
@@ -34,16 +36,19 @@ layout: default
                   <h6 style="color:#4e2a84">{{ page.college }}</h6>
                   <h6 style="color:#4e2a84">Faculty Advisor: {{ page.faculty_advisor }}</h6>
                   <h6 style="color:#000;">
-                    Completed in {{ page.date | date: '%Y' }}
                     {% if page.senior_thesis == true %}
                      Senior Thesis
-                    {% endif %}
+                    {% endif %}Completed in {{ page.date | date: '%Y' }}
                     {% if page.our_funding %}
                     with funding from O.U.R.
                     {% endif %}
                   </h6>
+                  <h6>DOI: <a href="https://doi.org/{{page.doi}}" target="_blank"> {{ page.doi }}</a></h6>
                   {% if page.slides_pdf %}
             			<a class="button" target="_blank" href="{{ page.slides_pdf }}">Slides</a>
+                  {% endif %}
+                  {% if page.thesis_pdf %}
+                  <a class="button" target="_blank" href="{{ page.thesis_pdf }}">Thesis</a>
                   {% endif %}
             		</div>
             	</div>

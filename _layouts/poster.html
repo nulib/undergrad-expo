@@ -37,10 +37,9 @@ layout: default
                   <h5 style="font-weight:bold;">{{ page.college }}</h5>
                   <h6 style="color:#4e2a84">Faculty Advisor: {{ page.faculty_advisor }}</h6>
                   <h6 style="color:#000;">
-                    Completed in {{ page.date | date: '%Y' }}
                     {% if page.senior_thesis == true %}
                      Senior Thesis
-                    {% endif %}
+                    {% endif %}Completed in {{ page.date | date: '%Y' }}
                     {% if page.our_funding %}
                     with funding from O.U.R.
                     {% endif %}
