@@ -5,7 +5,7 @@ date: 2017-05-31
 college: "Weinberg College of Arts and Sciences"
 author: "Shon Thomas"
 doi: "10.21985/N24T35"
-poster_pdf: /assets/pdfs/2017/thomas_poster.pdf
+poster_pdf: "/assets/pdfs/2017/thomas_poster.pdf"
 major: "Biological Sciences"
 minor: "Psychology"
 senior_thesis: false
