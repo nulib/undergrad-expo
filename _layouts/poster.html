@@ -24,47 +24,33 @@ layout: default
 
           <main id="main-content" class="content">
 
-            <div class="section background-select">
-            	<!-- note: no section top -->
-            	<div class="background-select-image">
-            		<div class="contain-970">
-            			<h3>{{ page.major }}</h3>
-                  {% if page.award %}
-                  <h4>{{ page.award }}</h4>
-                  {% endif %}
-            			<p class="subhead">{{ page.title }}</p>
-                  <h4 style="font-weight:bold;">{{ page.author }}</h4>
-                  <h5 style="font-weight:bold;">{{ page.college }}</h5>
-                  <h6 style="color:#4e2a84">Faculty Advisor: {{ page.faculty_advisor }}</h6>
-                  <h6 style="color:#000;">
-                    {% if page.senior_thesis == true %}
-                     Senior Thesis
-                    {% endif %}Completed in {{ page.date | date: '%Y' }}
-                    {% if page.our_funding %}
-                    with funding from O.U.R.
-                    {% endif %}
-                  </h6>
-                  <h6>DOI: <a href="https://doi.org/{{page.doi}}" target="_blank"> {{ page.doi }}</a></h6>
-                  <h6>Download:</h6>
-                  {% if page.poster_pdf %}
-            			<a class="button" target="_blank" href="{{ page.poster_pdf }}">Poster</a>
-                  {% endif %}
-                  {% if page.thesis_pdf %}
-                  <a class="button" target="_blank" href="{{ page.thesis_pdf }}">Thesis</a>
-                  {% endif %}
-            		</div>
-            	</div>
+            <div class="section large-feature">
+              <!-- note: no section top -->
+              <h3>{{ page.subject }}</h3>
+                <div class="large-feature-inner">
+                  <div class="content-side">
+                  <h4>{{ page.title }} <span style="color:#000">by {{ page.author }}</span></h4>
+                  <div class="text">
+                    <p>{{ page.abstract }}</p>
+                  </div>
+                  </div>
+                  <div class="right-side">
+                    <h6>
+                      {% if page.senior_thesis == true %}
+                       Senior Thesis
+                      {% endif %}Completed in <span style="color:#000">{{ page.date | date: '%Y' }}</span>
+                      {% if page.our_funding %}
+                        with funding from O.U.R.
+                      {% endif %}
+                    </h6>
+                    <h6>Advisor: <span style="color:#000">{{ page.faculty_advisor }}</span></h6>
+                    <h6>Major: <span style="color:#000">{{ page.major }}</span></span></h6>
+                    <h6>Minor: <span style="color:#000">{{ page.minor }}</span></h6>
+                    <h6>DOI: <a href="https://doi.org/{{page.doi}}" target="_blank"> {{ page.doi }}</a></h6>
+                  </div>
+                </div>
             </div>
 
-            <body class="standard-content narrow-content">
-              <div class="contain-970">
-                <h3>Abstract</h3>
-                <p>{{ page.abstract }}</p>
-
-                {{ content }}
-
-              </div>
-            </body>
           </main>
         </div>
 
