@@ -3,6 +3,7 @@
 title: "Abuse to Acceptance: Cleveland’s Italian Community from 1880-1920"
 date: 2017-06-02
 college: "Weinberg College of Arts and Sciences"
+subject: "Humanities"
 author: "Isabel Robertson"
 doi: "10.21985/N2J10T"
 thesis_pdf: "/assets/pdfs/2017/robertson_thesis.pdf"

@@ -3,6 +3,7 @@
 title: "Uncovering Neural Correlates of Anxious-Apprehension in Anticipation of Rewards"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Andrew R. Kittleson, James E. Glazer, & C. Robin Nusslock"
 doi: "10.21985/N2211V"
 poster_pdf: "/assets/pdfs/2018/Expo_Kittleson_18.pdf"

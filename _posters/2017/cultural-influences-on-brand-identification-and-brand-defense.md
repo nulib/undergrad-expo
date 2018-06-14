@@ -3,6 +3,7 @@
 title: "Cultural Influences on Brand Identification and Brand Defense"
 date: 2017-06-06
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Jiaqi Yu"
 doi: "10.21985/N2W993"
 poster_pdf: "/assets/pdfs/2017/yu_jiaqi_poster.pdf"

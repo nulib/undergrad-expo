@@ -3,6 +3,7 @@
 title: "Sensationalism in Pakistani News Channels: A downside of media deregulation?"
 date: 2017-05-31
 college: "Medill School of Journalism"
+subject: "Journalism"
 author: "Shakeeb Asrar"
 doi: "10.21985/N25T23"
 slides_pdf: /assets/pdfs/2017/asrar_slides.pdf

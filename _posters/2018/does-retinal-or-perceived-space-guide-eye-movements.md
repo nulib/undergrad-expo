@@ -3,6 +3,7 @@
 title: "Does Retinal or Perceived Space Guide Eye Movements?"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Adina Cianciotto"
 doi: "10.21985/N2J12K"
 poster_pdf: "/assets/pdfs/2018/Expo_Cianciotto_18.pdf"

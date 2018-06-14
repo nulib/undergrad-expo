@@ -3,6 +3,7 @@
 title: "Physiological Linkage and Relationship Functioning: Initial Findings From a Laboratory-Based Study of Married Couples"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "In Jung Jang, Ryan C. Svoboda, Kuan-Hua Chen, Claudia M. Haase"
 doi: "10.21985/N2FB00"
 poster_pdf: "/assets/pdfs/2018/Expo_JungJang_18.pdf"

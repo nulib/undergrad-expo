@@ -3,6 +3,7 @@
 title: "Modern Myth in Marvel's Moon Knight"
 date: 2018-05-31
 college: "School of Communication"
+subject: "Humanities"
 author: "Matthew Griffin"
 doi: "10.21985/N2C99F"
 major: "Radio/Television/Film"

@@ -3,6 +3,7 @@
 title: "The role of iconic gesture in facilitating memory and recall of lyrics"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Fine Arts"
 author: "Keishel X. Lee"
 doi: "10.21985/N24T4J"
 major: "Music Cognition"

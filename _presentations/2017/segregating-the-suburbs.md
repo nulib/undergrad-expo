@@ -3,6 +3,7 @@
 title: "Segregating the Suburbs: New Rochelle in Black and White, 1900-1970"
 date: 2017-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Humanities"
 author: "Kevin M. Slack"
 doi: "10.21985/N29H6R"
 thesis_pdf: "/assets/pdfs/2017/slack_thesis.pdf"

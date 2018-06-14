@@ -3,6 +3,7 @@
 title: "Cultivate Land by IoT & Drone Technology"
 date: 2018-05-31
 college: "McCormick School of Engineering and Applied Sciences"
+subject: "Engineering"
 author: "Alberta Yoo"
 doi: "10.21985/N28H86"
 poster_pdf: "/assets/pdfs/2018/Expo_Yoo_18.pdf"

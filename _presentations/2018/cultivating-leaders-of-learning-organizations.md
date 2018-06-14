@@ -3,6 +3,7 @@
 title: "Cultivating Leaders of Learning Organizations"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Maria Christina Loi"
 doi: "10.21985/N2WB01"
 major: "Learning and Organizational Change"

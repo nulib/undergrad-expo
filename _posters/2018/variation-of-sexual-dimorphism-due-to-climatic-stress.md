@@ -3,6 +3,7 @@
 title: "Variation of Sexual Dimorphism due to Climatic Stress"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Maria Feiler"
 doi: "10.21985/N2K11H"
 poster_pdf: "/assets/pdfs/2018/Expo_Feiler_18.pdf"

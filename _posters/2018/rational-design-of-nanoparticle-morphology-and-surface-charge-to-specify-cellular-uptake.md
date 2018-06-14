@@ -3,6 +3,7 @@
 title: "Rational Design of Nanoparticle  Morphology and Surface Charge to Specify Cellular Uptake"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Yufan Yang, Nicholas Karabin, and Evan Scott"
 doi: "10.21985/N2NT46"
 poster_pdf: "/assets/pdfs/2018/Expo_Yang_18.pdf"

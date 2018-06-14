@@ -3,6 +3,7 @@
 title: "Women, Conflict, and Peace in Nepal"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Nina Sedeño"
 doi: "10.21985/N2H429"
 major: "International Studies & Political Science "

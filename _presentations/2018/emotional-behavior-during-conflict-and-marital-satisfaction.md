@@ -3,6 +3,7 @@
 title: "Emotional Behavior During Conflict and Marital Satisfaction: A Laboratory-Based Study of Married Couples"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Jordyn Ricard"
 doi: "10.21985/N2MT4W"
 major: "Human Development and Psychological Services"

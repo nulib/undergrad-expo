@@ -3,6 +3,7 @@
 title: "Caregivers’ Perspective on Illinois Policy for the Intellectually and Developmentally Disabled"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Camille Cooley"
 doi: "10.21985/N2V99S"
 major: "Human Development and Psychological Services"

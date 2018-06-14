@@ -3,6 +3,7 @@
 title: "Investigating Self-Compassion and Empathy in the Context of an Internet-Delivered Mindfulness-Based Exposure Intervention"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Victoria Steigerwald"
 doi: "10.21985/N23T3V"
 major: "Psychology"

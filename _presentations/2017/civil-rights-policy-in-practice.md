@@ -3,6 +3,7 @@
 title: "Civil Rights Policy in Practice: Provision of Language Assistance Services in Health Care"
 date: 2017-05-31
 college: "School of Education and Social Policy"
+subject: "Social Sciences"
 author: "Meredith Greene"
 doi: "10.21985/N2NT3T"
 slides_pdf: "/assets/pdfs/2017/greene_slides.pdf"

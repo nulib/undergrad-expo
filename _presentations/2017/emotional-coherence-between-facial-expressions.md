@@ -3,6 +3,7 @@
 title: "Emotional Coherence between Facial Expressions and Heart Rate is Associated with Well-Being"
 date: 2016-04-24
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Katherine K. Bae"
 doi: "10.21985/N2SH63"
 slides_pdf: /assets/pdfs/2017/bae_slides.pdf

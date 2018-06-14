@@ -3,6 +3,7 @@
 title: "Awareness of and Attitudes Toward Anti-Weight Stigma Movements"
 date: 2017-06-20
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Vilte Baliutaviciute"
 doi: "10.21985/N2RH75"
 poster_pdf: "/assets/pdfs/2017/baliutaviciute_poster.pdf"

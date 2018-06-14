@@ -3,6 +3,7 @@
 title: "Positive Facial Expressions in Marriage: Genuine and Non-Genuine Smiles as Predictors of Marital Satisfaction"
 date: 2017-04-04
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Katherine K. Bae"
 doi: "10.21985/N28H6F"
 poster_pdf: "/assets/pdfs/2017/bae_poster.pdf"

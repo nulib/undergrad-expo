@@ -3,6 +3,7 @@
 title: "The Inward Turn of Chicago Drill Rap"
 date: 2017-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Benjamin M. Levey"
 doi: "10.21985/N2210G"
 slides_pdf: /assets/pdfs/2017/levey_slides.pdf

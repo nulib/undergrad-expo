@@ -3,6 +3,7 @@
 title: "The Evolution of Sexism Under Gorbachev: Abortion , Population Growth, and Societal Expectations Under Perestroika"
 date: 2017-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Bailey Sutton"
 doi: "10.21985/N2D99R"
 poster_pdf: "/assets/pdfs/2017/sutton_poster.pdf"

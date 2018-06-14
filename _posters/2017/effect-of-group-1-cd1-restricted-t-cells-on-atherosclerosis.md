@@ -3,6 +3,7 @@
 title: "Effect of Group 1 CD1-restricted T cells on Atherosclerosis"
 date: 2017-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Shon Thomas"
 doi: "10.21985/N24T35"
 poster_pdf: "/assets/pdfs/2017/thomas_poster.pdf"

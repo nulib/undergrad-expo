@@ -3,6 +3,7 @@
 title: "Determining the grain size of polycrystalline diamond"
 date: 2017-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Physical Sciences"
 author: "Lauren Barmore"
 doi: "10.21985/N2111J"
 poster_pdf: "/assets/pdfs/2017/barmore_poster.pdf"

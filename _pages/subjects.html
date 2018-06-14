@@ -12,7 +12,7 @@ The following part extracts all the tags from your posts and sort tags, so that 
 {% endcomment %}
 {% assign rawtags = "" %}
 {% for post in site.documents %}
-	{% assign ttags = post.major | join:'|' | append:'|' %}
+	{% assign ttags = post.subject | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
@@ -46,7 +46,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
   <hr>
 
     {% for post in site.presentations %}
-    {% if post.major contains tag %}
+    {% if post.subject contains tag %}
 
 		<article class="news">
 			<h4 class="news-title" style="font-weight:bold;"><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -58,7 +58,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 	 {% endfor %}
 
 	 {% for post in site.posters %}
-	 {% if post.major contains tag %}
+	 {% if post.subject contains tag %}
 
 	 <article class="news">
 		 <h4 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>

@@ -3,6 +3,7 @@
 title: "Polygons, Companion Shapes and the Construction of Polyhedra"
 date: 2018-05-31
 college: "Weinberg college of Arts and Sciences"
+subject: "Physical Sciences"
 author: "Yuxi Han"
 doi: "10.21985/N2X99D"
 poster_pdf: "/assets/pdfs/2018/Expo_Han_18.pdf"

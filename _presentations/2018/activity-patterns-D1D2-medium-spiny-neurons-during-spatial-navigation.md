@@ -3,6 +3,7 @@
 title: "Activity Patterns of D1/D2 Medium Spiny Neurons during Spatial Navigation"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Alyssa Larios, Mark Howe"
 doi: "10.21985/N2042N"
 major: "Neuroscience"

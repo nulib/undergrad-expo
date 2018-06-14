@@ -3,6 +3,7 @@
 title: "Voice-Pitch Perturbation in Non-Clinical Psychosis"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Life Sciences"
 author: "Amy Lieberman"
 doi: "10.21985/N2WB01"
 major: "Human Development and Psychological Services"

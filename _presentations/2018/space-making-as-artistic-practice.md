@@ -3,6 +3,7 @@
 title: "Space Making as Artistic Practice: The Relationship Between Grassroots Art Organizations and the Urban Political Economy of Development"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 author: "Shira Zilberstein"
 doi: "10.21985/N2WB01"
 major: "Sociology"

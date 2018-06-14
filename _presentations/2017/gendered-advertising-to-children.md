@@ -3,6 +3,7 @@
 title: "Gendered Advertising to Children: An Analysis of Differences in Male- and Female-Targeted Television Commercials"
 date: 2017-06-01
 college: "School of Communication"
+subject: "Social Sciences"
 author: "Meredith Ford"
 doi: "10.21985/N2795P"
 slides_pdf: /assets/pdfs/2017/ford_slides.pdf
