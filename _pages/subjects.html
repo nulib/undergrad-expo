@@ -50,9 +50,8 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 
 		<article class="news">
 			<h4 class="news-title" style="font-size:150%;"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-			<h6>{{ post.author }}</h6>
-			<div class="news-date">{{ post.major }}, {{ post.date | date: '%Y' }}</div>
-			<div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ post.url }}">View the presentation.</a></div>
+			<h6>{{ post.author }}, {{ post.major }}, {{ post.date | date: '%Y' }}</h6>
+			<div class="news-description">{{ post.abstract | truncatewords: 75 }} <a href="{{ post.url }}">View the presentation.</a></div>
 		</article>
 
 	 {% endif %}
@@ -63,9 +62,8 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 
 	 <article class="news">
 		 <h4 class="news-title" style="font-size:150%;"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-		 <h6>{{ post.author }}</h6>
-		 <div class="news-date">{{ post.major }}, {{ post.date | date: '%Y' }}</div>
-		 <div class="news-description">{{ post.abstract | truncatewords: 50 }} <a href="{{ post.url }}">View the poster.</a></div>
+		 <h6>{{ post.author }}, {{ post.major }}, {{ post.date | date: '%Y' }}</h6>
+		 <div class="news-description">{{ post.abstract | truncatewords: 75 }} <a href="{{ post.url }}">View the poster.</a></div>
 	 </article>
 
  		{% endif %}
