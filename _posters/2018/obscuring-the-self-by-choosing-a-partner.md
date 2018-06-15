@@ -4,7 +4,7 @@ title: "Obscuring the Self by Choosing a Partner: The Challenge of Identity Deni
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
-author: "Hannah E. Savitz, Alexandra Garr-Schultz, and Wendi L. Gardner"
+author: "Hannah E. Savitz, et al."
 doi: "10.21985/N29H74"
 poster_pdf: "/assets/pdfs/2018/Expo_Savits_18.pdf"
 major: "Psychology"

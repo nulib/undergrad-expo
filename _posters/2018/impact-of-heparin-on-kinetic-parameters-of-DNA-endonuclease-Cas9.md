@@ -4,7 +4,7 @@ title: "Impact of heparin on kinetic parameters of DNA endonuclease Cas9"
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
-author: "Anam Furrukh, Felix Kröner, Ulrich Rant"
+author: "Anam Furrukh, et al."
 doi: "10.21985/N2SH8V"
 poster_pdf: "/assets/pdfs/2018/Expo_Han_18.pdf"
 major: "Neuroscience"

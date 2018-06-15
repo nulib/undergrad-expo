@@ -29,12 +29,14 @@ layout: default
               <h3>{{ page.subject }}</h3>
                 <div class="large-feature-inner">
                   <div class="content-side">
-                  <h4>{{ page.title }} <span style="color:#000">by {{ page.author }}</span></h4>
+                  <h4>{{ page.title }}</h4>
                   <div class="text">
+                    <h5>Abstract</h5>
                     <p>{{ page.abstract }}</p>
                   </div>
                   </div>
                   <div class="right-side">
+                    <h4>{{ page.author }}</h4>
                     <h6>
                       {% if page.senior_thesis == true %}
                        Senior Thesis
@@ -45,8 +47,11 @@ layout: default
                     </h6>
                     <h6>Advisor: <span style="color:#000">{{ page.faculty_advisor }}</span></h6>
                     <h6>Major: <span style="color:#000">{{ page.major }}</span></span></h6>
+                    {% if page.minor %}
                     <h6>Minor: <span style="color:#000">{{ page.minor }}</span></h6>
-                    <h6>DOI: <a href="https://doi.org/{{page.doi}}" target="_blank"> {{ page.doi }}</a></h6>
+                    {% endif %}
+                    <h6>DOI: <a href="https://doi.org/{{ page.doi }}" target="_blank"> {{ page.doi }}</a></h6>
+                    <a class="button" href="{{ page.poster_pdf }}">Download</a>
                   </div>
                 </div>
             </div>

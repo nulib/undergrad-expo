@@ -4,7 +4,7 @@ title: "Physiological Linkage and Relationship Functioning: Initial Findings Fro
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
-author: "In Jung Jang, Ryan C. Svoboda, Kuan-Hua Chen, Claudia M. Haase"
+author: "In Jung Jang, et al."
 doi: "10.21985/N2FB00"
 poster_pdf: "/assets/pdfs/2018/Expo_JungJang_18.pdf"
 major: "Biology and Psychology"

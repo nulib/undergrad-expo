@@ -4,7 +4,7 @@ title: "Modeling Posttraumatic Stress Disorder in a Genetic Rat Model of Depress
 date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
-author: "Sophia Jenz, Lim PH, and Redei EE"
+author: "Sophia Jenz, et al."
 doi: "10.21985/N25T4V"
 poster_pdf: "/assets/pdfs/2018/Expo_Jenz_18.pdf"
 major: "Neuroscience"

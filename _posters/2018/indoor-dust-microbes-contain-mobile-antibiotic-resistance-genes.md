@@ -4,7 +4,7 @@ title: "Indoor Dust Microbes Contain Mobile Antibiotic Resistance Genes"
 date: 2018-05-31
 college: "McCormick School of Engineering and Applied Sciences"
 subject: "Engineering"
-author: "Taylor Brown, Sarah Ben Maamar, Adam Glawe, Erica Hartmann"
+author: "Taylor Brown, et al."
 doi: "10.21985/N2DB0P"
 poster_pdf: "/assets/pdfs/2018/Expo_Brown_18.pdf"
 major: "Biomedical Engineering"
