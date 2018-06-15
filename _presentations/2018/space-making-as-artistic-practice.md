@@ -5,6 +5,7 @@ date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
 author: "Shira Zilberstein"
+thesis_pdf: "/assets/pdfs/2018/Expo_Zilberstein.pdf"
 doi: "10.21985/N2WB01"
 major: "Sociology"
 senior_thesis: true

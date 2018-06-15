@@ -6,6 +6,7 @@ college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
 author: "Camille Cooley"
 doi: "10.21985/N2V99S"
+thesis_pdf: "/assets/pdfs/2018/Expo_Cooley.zip"
 major: "Human Development and Psychological Services"
 senior_thesis: true
 our_funding: true

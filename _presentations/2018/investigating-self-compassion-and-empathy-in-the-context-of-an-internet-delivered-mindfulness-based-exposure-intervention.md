@@ -5,6 +5,7 @@ date: 2018-05-31
 college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
 author: "Victoria Steigerwald"
+thesis_pdf: "/assets/pdfs/2018/Expo_Steigerwald.pdf"
 doi: "10.21985/N23T3V"
 major: "Psychology"
 senior_thesis: true

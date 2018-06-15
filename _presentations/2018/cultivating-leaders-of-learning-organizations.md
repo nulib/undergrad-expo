@@ -6,6 +6,7 @@ college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
 author: "Maria Christina Loi"
 doi: "10.21985/N2WB01"
+thesis_pdf: "/assets/pdfs/2018/Expo_Loi.pdf"
 major: "Learning and Organizational Change"
 senior_thesis: true
 our_funding: false

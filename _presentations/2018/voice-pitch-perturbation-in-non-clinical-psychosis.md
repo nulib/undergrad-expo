@@ -6,6 +6,7 @@ college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
 author: "Amy Lieberman"
 doi: "10.21985/N2WB01"
+thesis_pdf: "/assets/pdfs/2018/Expo_Lieberman.pdf"
 major: "Human Development and Psychological Services"
 senior_thesis: true
 our_funding: true
