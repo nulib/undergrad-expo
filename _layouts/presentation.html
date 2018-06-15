@@ -29,40 +29,39 @@ layout: default
         {% endif %}
 
           <main id="main-content" class="content">
-
-            <div class="section background-select no-bottom-margin">
-            	<!-- note: no section top -->
-            	<div class="background-select-image">
-            		<div class="contain-970">
-            			<h3>{{ page.major }}</h3>
-            			<p class="subhead">{{ page.title }}</p>
-                  <h4>{{ page.author }}</h4>
-                  <h6 style="color:#4e2a84">{{ page.college }}</h6>
-                  <h6 style="color:#4e2a84">Faculty Advisor: {{ page.faculty_advisor }}</h6>
-                  <h6 style="color:#000;">
-                    {% if page.senior_thesis == true %}
-                     Senior Thesis
-                    {% endif %}Completed in {{ page.date | date: '%Y' }}
-                    {% if page.our_funding %}
-                    with funding from O.U.R.
+            <div class="section large-feature">
+              <!-- note: no section top -->
+              <h3>{{ page.subject }}</h3>
+                <div class="large-feature-inner">
+                  <div class="content-side">
+                    <h4>{{ page.title }}</h4>
+                  <div class="text">
+                    <h5>Abstract</h5>
+                    <p>{{ page.abstract }}</p>
+                  </div>
+                  </div>
+                  <div class="right-side">
+                    <h4>{{ page.author }}</h4>
+                    <h6>
+                      {% if page.senior_thesis == true %}
+                       Senior Thesis
+                      {% endif %}Completed in <span style="color:#000">{{ page.date | date: '%Y' }}</span>
+                      {% if page.our_funding %}
+                        with funding from the <a href="http://undergradresearch.northwestern.edu/" target="_bank">Office of Undergraduate Research</a>
+                      {% endif %}
+                    </h6>
+                    <h6>Advisor: <span style="color:#000">{{ page.faculty_advisor }}</span></h6>
+                    <h6>Major: <span style="color:#000">{{ page.major }}</span></span></h6>
+                    {% if page.minor %}
+                    <h6>Minor: <span style="color:#000">{{ page.minor }}</span></h6>
                     {% endif %}
-                  </h6>
-                  <h6>DOI: <a href="https://doi.org/{{page.doi}}" target="_blank"> {{ page.doi }}</a></h6>
-                  {% if page.slides_pdf %}
-            			<a class="button" target="_blank" href="{{ page.slides_pdf }}">Slides</a>
-                  {% endif %}
-                  {% if page.thesis_pdf %}
-                  <a class="button" target="_blank" href="{{ page.thesis_pdf }}">Thesis</a>
-                  {% endif %}
-            		</div>
-            	</div>
+                    <h6>DOI: <a href="https://doi.org/{{ page.doi }}" target="_blank"> {{ page.doi }}</a></h6>
+                    {% if page.thesis_pdf %}
+                    <a class="button" href="{{ page.thesis_pdf }}">Download</a>
+                    {% endif %}
+                  </div>
+                </div>
             </div>
-
-            <body class="standard-content narrow-content">
-              <div class="contain-970">
-                <h3>Abstract</h3>
-                {{ page.abstract }}
-              </div>
           </main>
         </div>
     <footer>
