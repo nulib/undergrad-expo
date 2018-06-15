@@ -7,8 +7,7 @@ subject: "Life Sciences"
 author: "Yufan Yang, et al."
 doi: "10.21985/N2NT46"
 poster_pdf: "/assets/pdfs/2018/Expo_Yang_18.pdf"
-major: "Biological Sciences"
-minor: "Psychology"
+major: "Biological Sciences and Psychology"
 senior_thesis: false
 out_funding: true
 faculty_advisor: "Evan Scott"
