@@ -2,7 +2,7 @@
 # Presentation Metadata
 title: "Developing a probabilistic program to analyze combinations of risk factors for arrhythmia detection"
 date: 2018-05-31
-subject: "High School Showcase"
+hs: true
 college: "RISE Online STEM Research Institute"
 author: "Shouri Bochetty"
 senior_thesis: false

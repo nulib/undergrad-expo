@@ -2,7 +2,7 @@
 # Presentation Metadata
 title: "The Effect of Common Household Paints on Drosophila Melanogaster"
 date: 2018-05-31
-subject: "High School Showcase"
+hs: true
 college: "RISE Online STEM Research Institute"
 author: "Eva Tuecke"
 senior_thesis: false

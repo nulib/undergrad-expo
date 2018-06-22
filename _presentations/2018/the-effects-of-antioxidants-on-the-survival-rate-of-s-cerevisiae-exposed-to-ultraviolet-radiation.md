@@ -2,7 +2,7 @@
 # Presentation Metadata
 title: "The Effects of Antioxidants on the Survival Rate of S. cerevisiae Exposed to Ultraviolet Radiation"
 date: 2018-05-31
-subject: "High School Showcase"
+hs: true
 college: "RISE Online STEM Research Institute"
 author: "Om Gandhi"
 senior_thesis: false

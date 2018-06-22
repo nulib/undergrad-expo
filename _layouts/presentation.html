@@ -31,7 +31,12 @@ layout: default
           <main id="main-content" class="content">
             <div class="section large-feature">
               <!-- note: no section top -->
+              {% if page.subject %}
               <h3>{{ page.subject }}</h3>
+              {% endif %}
+              {% if page.hs %}
+              <h3>High School Showcase</h3>
+              {% endif %}
                 <div class="large-feature-inner">
                   <div class="content-side">
                     <h4>{{ page.title }}</h4>

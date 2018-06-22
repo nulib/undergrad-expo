@@ -2,7 +2,7 @@
 # Presentation Metadata
 title: "Correlation Between GPS Error Signals and Geomagnetic Activity in the Ionosphere"
 date: 2018-05-31
-subject: "High School Showcase"
+hs: true
 college: "RISE Online STEM Research Institute"
 author: "Sahithi Ankireddy"
 senior_thesis: false

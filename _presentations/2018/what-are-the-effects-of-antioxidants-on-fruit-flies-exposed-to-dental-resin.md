@@ -2,7 +2,7 @@
 # Presentation Metadata
 title: "What are the effects of antioxidants on fruit flies exposed to dental resin?"
 date: 2018-05-31
-subject: "High School Showcase"
+hs: true
 college: "RISE Online STEM Research Institute"
 author: "Prarthana Prashanth"
 thesis_pdf: "/assets/pdfs/2018/Expo_HS_Prashanth.zip"

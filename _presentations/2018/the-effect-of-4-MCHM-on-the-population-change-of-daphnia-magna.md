@@ -2,7 +2,7 @@
 # Presentation Metadata
 title: "The Effect of 4-MCHM on the Population Change of Daphnia magna"
 date: 2018-05-31
-subject: "High School Showcase"
+hs: true
 college: "RISE Online STEM Research Institute"
 author: "Kate Karaman"
 senior_thesis: false
