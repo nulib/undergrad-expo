@@ -7,7 +7,7 @@ subject: "Social Sciences"
 author: "Nina Sedeño"
 doi: "10.21985/N2H429"
 thesis_pdf: "/assets/pdfs/2018/FINAL_Sedeno.pdf"
-major: "International Studies & Political Science "
+major: "International Studies & Political Science"
 senior_thesis: false
 our_funding: false
 faculty_advisor: "Lisa Buchter"
