@@ -6,7 +6,7 @@ author: "Sarah Dinegar"
 college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
 doi: "10.21985/N2447S"
-thesis_pdf: "/assets/pdfs/2019/FINAL_Sedeno.pdf"
+thesis_pdf: "/assets/pdfs/2019/Expo_Dinegar.pdf"
 major: "Biological Sciences"
 minor: "German"
 senior_thesis: true

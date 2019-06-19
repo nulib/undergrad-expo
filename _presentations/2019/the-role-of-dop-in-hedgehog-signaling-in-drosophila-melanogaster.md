@@ -6,7 +6,7 @@ author: "CJ Patel"
 college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
 doi: "10.21985/N2FJ5Z"
-thesis_pdf: "/assets/pdfs/2019/FINAL_Sedeno.pdf"
+thesis_pdf: "/assets/pdfs/2019/Expo_Patel.pdf"
 major: "Biological Sciences"
 minor: "Psychology"
 senior_thesis: true

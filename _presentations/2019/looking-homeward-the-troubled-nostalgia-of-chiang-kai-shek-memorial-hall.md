@@ -6,7 +6,7 @@ author: "Nicholas Liou"
 college: "Weinberg College of Arts and Sciences"
 subject: "Humanities"
 doi: "10.21985/N2QV11"
-thesis_pdf: "/assets/pdfs/2019/FINAL_Sedeno.pdf"
+thesis_pdf: "/assets/pdfs/2019/Expo_Liou.pdf"
 major: "Art History"
 senior_thesis: false
 our_funding: 

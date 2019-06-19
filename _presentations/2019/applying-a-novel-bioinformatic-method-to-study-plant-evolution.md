@@ -6,7 +6,7 @@ author: "Christina Shehata"
 college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
 doi: "10.21985/N27V22"
-thesis_pdf: "/assets/pdfs/2019/FINAL_Sedeno.pdf"
+thesis_pdf: "/assets/pdfs/2019/Expo_Shehata.pdf"
 major: "Neuroscience"
 minor: "Science in Human Culture"
 senior_thesis: false

@@ -6,7 +6,7 @@ author: "Samantha Oberman"
 college: "School of Education & Social Policy"
 subject: "Social Sciences"
 doi: "10.21985/N2GB6K"
-thesis_pdf: "/assets/pdfs/2019/FINAL_Sedeno.pdf"
+thesis_pdf: "/assets/pdfs/2019/Expo_Oberman.pdf"
 major: "Human Development & Psychological Services"
 senior_thesis: true
 our_funding: true

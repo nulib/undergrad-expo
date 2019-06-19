@@ -6,7 +6,7 @@ author: "Maya Glenn"
 college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
 doi: "10.21985/N2VN4B"
-thesis_pdf: "/assets/pdfs/2019/FINAL_Sedeno.pdf"
+thesis_pdf: "/assets/pdfs/2019/Expo_Glenn.pdf"
 major: "Gender & Sexuality Studies"
 senior_thesis: false
 our_funding: true
