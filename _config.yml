@@ -39,8 +39,8 @@ highlighter: rouge
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
+  #- jekyll-feed
+  #- jekyll-paginate
 
 # Sass/SCSS
 sass:
