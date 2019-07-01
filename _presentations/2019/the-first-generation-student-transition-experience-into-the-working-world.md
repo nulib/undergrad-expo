@@ -6,7 +6,6 @@ college: "School of Education & Social Policy"
 subject: "Social Sciences"
 author: "Samantha Buresch"
 doi: "10.21985/N2ZJ5M"
-poster_pdf: "/assets/pdfs/2019/Expo_Buresch_19.pdf"
 major: "Education and Social Policy"
 senior_thesis: true
 out_funding: true
