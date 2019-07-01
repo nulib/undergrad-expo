@@ -62,7 +62,7 @@ layout: default
                     <h6>Advisor: <span style="color:#000">{{ page.faculty_advisor }}</span></h6>
                     {% endif %}
                     {% if page.major %}
-                    <h6>Major: <span style="color:#000">{{ page.major }}</span></span></h6>
+                    <h6>Major: <span style="color:#000">{{ page.major }}</span></h6>
                     {% endif %}
                     {% if page.minor %}
                     <h6>Minor: <span style="color:#000">{{ page.minor }}</span></h6>
@@ -70,8 +70,8 @@ layout: default
                     {% if page.doi %}
                     <h6>DOI: <a href="https://doi.org/{{ page.doi }}" target="_blank"> {{ page.doi }}</a></h6>
                     {% endif %}
-                    {% if page.thesis_pdf %}
-                    <a class="button" href="{{ page.thesis_pdf }}">Download</a>
+                    {% if page.doi %}
+                    <a class="button" href="https://doi.org/{{ page.doi }}" target="_blank">Download</a>
                     {% endif %}
                   </div>
                 </div>

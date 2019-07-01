@@ -6,7 +6,6 @@ author: "Rachel Johnstone"
 college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
 doi: "10.21985/N2M49W"
-thesis_pdf: "/assets/pdfs/2019/Expo_Johnstone.pdf"
 major: "Flute Performance"
 minor: "Psychology"
 senior_thesis: true

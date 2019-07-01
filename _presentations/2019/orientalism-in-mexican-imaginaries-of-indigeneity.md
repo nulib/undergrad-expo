@@ -6,7 +6,6 @@ author: "Katherine Lo"
 college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
 doi: "10.21985/N2CN3M"
-thesis_pdf: "/assets/pdfs/2019/Expo_Lo.pdf"
 major: "Asian American Studies"
 senior_thesis: true
 our_funding: false

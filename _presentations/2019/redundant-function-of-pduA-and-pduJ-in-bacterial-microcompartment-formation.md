@@ -5,8 +5,7 @@ date: 2019-06-29
 author: "Henry Raeder"
 college: "Weinberg College of Arts and Sciences"
 subject: "Life Sciences"
-doi: 
-thesis_pdf: "/assets/pdfs/2019/Expo_Raeder.pdf"
+doi:
 major: "Biological Sciences"
 senior_thesis: false
 our_funding: true

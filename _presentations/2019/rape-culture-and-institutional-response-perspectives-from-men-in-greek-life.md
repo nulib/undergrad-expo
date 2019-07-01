@@ -6,7 +6,6 @@ author: "Alana Farkas"
 college: "School of Education & Social Policy"
 subject: "Social Sciences"
 doi: "10.21985/N2BN39"
-thesis_pdf: "/assets/pdfs/2019/Expo_Farkas.pdf"
 major: "Human Development and Psychological Services"
 senior_thesis: true
 our_funding: true

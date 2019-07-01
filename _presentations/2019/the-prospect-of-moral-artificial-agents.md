@@ -6,7 +6,6 @@ author: "Jun Kyung You"
 college: "Weinberg College of Arts and Sciences"
 subject: "Humanities"
 doi: "10.21985/N2N48T"
-thesis_pdf: "/assets/pdfs/2019/Expo_You.pdf"
 major: "Philosophy"
 senior_thesis: true
 our_funding: true
