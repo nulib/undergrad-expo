@@ -2,7 +2,6 @@
 layout: default
 ---
 <body class="landing-page">
-    <a id="top"></a>
     <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
     <!--[if lt IE 9]>
     <div id="ie">
@@ -26,25 +25,25 @@ layout: default
 
             <div class="section large-feature">
               <!-- note: no section top -->
+              <h2>{{ page.title }}</h2>
               <h3>{{ page.subject }}</h3>
                 <div class="large-feature-inner">
                   <div class="content-side">
-                  <h4>{{ page.title }}</h4>
                   <div class="text">
-                    <h5>Abstract</h5>
+                    <h4>Abstract</h4>
                     <p>{{ page.abstract }}</p>
                   </div>
                   </div>
                   <div class="right-side">
                     <h4>{{ page.author }}</h4>
-                    <h6>
+                    <h5>
                       {% if page.senior_thesis == true %}
                        Senior Thesis
                       {% endif %}Completed in <span style="color:#000">{{ page.date | date: '%Y' }}</span>
                       {% if page.our_funding %}
                         with funding from O.U.R.
                       {% endif %}
-                    </h6>
+                    </h5>
                     <h6>Advisor: <span style="color:#000">{{ page.faculty_advisor }}</span></h6>
                     <h6>Major: <span style="color:#000">{{ page.major }}</span></span></h6>
                     {% if page.minor %}
