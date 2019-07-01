@@ -1,10 +1,10 @@
 # Site settings
 title              : "Undergraduate Research and Arts Expo"
-description        : ""
+description        : "The Undergraduate Research and Arts Exposition is the annual forum for original research and creative work by undergraduate students at Northwestern University. Prizes are awarded for the best poster, oral presentation, and creative arts entry. This conference archive organizes the oral presentations, posters, and creative works from the Expo and creates a permanent record the scholarship and art that was presented."
 publisher          : "Northwestern University Libraries"
 rights             : "All Rights Reserved"
 license            : "None"
-url                :
+url                : expo.undergradresearch.northwestern.edu
 baseurl            :
 encoding           : utf-8
 google_analytics   : "UA-116823108-2"
