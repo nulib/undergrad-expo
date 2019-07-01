@@ -10,7 +10,7 @@ poster_pdf: "/assets/pdfs/2017/barmore_poster.pdf"
 major: "Physics and Astronomy"
 minor: "German"
 senior_thesis: false
-out_funding: false
+our_funding: false
 faculty_advisor: "Siegfried Glenzer"
 abstract: "The High Energy Density Sciences group at SLAC National Accelerator Laboratory studies materials in extreme conditions such as very high temperatures and pressures. We use shock waves produced by the Linac Coherent Light Source to compress polycrystalline diamond samples. Compressing these samples allows us to use x-ray diffraction to study the changes to the material’s structure as it experiences high pressure conditions. As a result of the shock wave, the polycrystalline diamond samples undergo dynamic compression. Polycrystalline diamond is valuable to study because it can be formed into ablator capsules for use in inertial confinement fusion reactions."
 # scribd embed
