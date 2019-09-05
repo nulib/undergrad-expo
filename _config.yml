@@ -26,21 +26,12 @@ editors:
   twitter          :
   youtube          : "http://www.youtube.com/user/OURNU"
 
-# Reading file
-include:
-exclude:
-keep_files:
 encoding: "utf-8"
 markdown_ext: "md"
 
 # Conversion
 markdown: kramdown
 highlighter: rouge
-
-# Plugins
-plugins:
-  #- jekyll-feed
-  #- jekyll-paginate
 
 # Sass/SCSS
 sass:
@@ -49,7 +40,7 @@ sass:
 
 # Collections
 collections:
-  pages:
+  pagez:
     output: true
     permalink: /:path/
   posters:
