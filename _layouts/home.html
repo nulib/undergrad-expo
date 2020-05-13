@@ -19,7 +19,9 @@ layout: default
 
     <div id="page">
       <main class="content" id="main-content">
-
+        {% if page.announcement_title %}
+        {% include announcement.html %}
+        {% endif %}
         {% include hero-image.html %}
 
         <div class="section contain-1120">
