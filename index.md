@@ -9,7 +9,7 @@ button_text: "Publish Your Research"
 header_image: "/assets/images/2019/dasani.jpg"
 header_caption: "Image: 'Image Colorization with Convolutional Neural Networks' by Div Dasani, Statistics"
 announcement_title: "Publishing Opportunity:"
-announcement_description: "All 2020 Expo presenters are invited to publish in the Expo's annual conference proceedings **and** the _[Northwestern Undergraduate Research Journal Online](https://thenurj.com/nurj-online/)_. Complete the [submission form](https://forms.gle/USvcBA1ZWWDDfmmr8) to share your research with the world."
+announcement_description: "All 2020 Expo presenters are invited to publish in the Expo's annual conference proceedings **and** the _[Northwestern Undergraduate Research Journal Online](https://thenurj.com/nurj-online/)_. Complete the [submission form](https://forms.gle/USvcBA1ZWWDDfmmr8) to share your research with the world. Research submitted by **Friday, June 5th**, will receive priority consideration for the _Northwestern Undergraduate Research Journal Online_."
 ---
 The Undergraduate Research and Arts Exposition is the annual forum for original research and creative work by undergraduate students at Northwestern University. Prizes are awarded for the best poster, oral presentation, and creative arts entry. This conference archive organizes the oral presentations, posters, and creative works from the Expo and creates a permanent record the scholarship and art that was presented.
 
