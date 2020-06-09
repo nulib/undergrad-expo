@@ -3,7 +3,7 @@
 title: "Mathematical Modeling of U.S. Elections"
 date: 2020-05-28
 college: "Weinberg College of Arts and Sciences"
-subject: "Social Sciences"
+subject: "Engineering"
 author: "William He, Christopher Lee"
 doi: "10.21985/n2-g57k-d133"
 major: "Applied Math"

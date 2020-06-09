@@ -4,7 +4,7 @@ title: "Seeing What You Want: Prior Belief Biases Perception of Correlation in S
 date: 2020-05-28
 college: "Weinberg College of Arts and Sciences"
 subject: "Social Sciences"
-author: "Chase Stokes"
+author: "Chase Stokes, Cindy Xiong, & Steve Franconeri"
 doi: "10.21985/n2-dj9y-f440"
 major: "Psychology, Gender and Sexuality Studies"
 senior_thesis: false

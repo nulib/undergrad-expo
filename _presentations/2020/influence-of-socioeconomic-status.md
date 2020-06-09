@@ -3,7 +3,7 @@
 title: "Influence of Socioeconomic Status and Sleep Quality on Risks for Obesity"
 date: 2020-05-24
 author: "Khaqan Ahmad"
-college: "Weinberg College of Arts and Sciences"
+college: "School of Education and Social Policy"
 subject: "Life Sciences"
 doi: "10.21985/n2-hv5t-8h94"
 major: "Social Policy"

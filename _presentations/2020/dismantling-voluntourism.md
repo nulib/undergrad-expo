@@ -4,7 +4,7 @@ title: "Dismantling Voluntourism: Evaluating the Effects of a Global Health Supp
 date: 2020-05-24
 author: "Jehannaz Dastoor"
 college: "Weinberg College of Arts and Sciences"
-subject: "Life Sciences"
+subject: "Social Sciences"
 doi: "10.21985/n2-fe0f-kp78"
 major: "Anthropology"
 senior_thesis: no
