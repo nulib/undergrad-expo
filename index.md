@@ -4,8 +4,8 @@ title: "2020"
 subtitle: "Conference Proceedings"
 youtube: "https://www.youtube.com/embed/QUTirbLhyIM"
 home: true
-button_url: https://forms.gle/USvcBA1ZWWDDfmmr8
-button_text: "Publish Your Research"
+button_url: https://forms.gle/3Sn5ZZeZdMhwE5e98
+button_text: "Now Accepting Submissions for 2021"
 header_image: "/assets/images/2020/cover.png"
 header_caption: "Image: 'Mathematical Modeling of U.S. Elections' by William He & Christopher Lee"
 announcement_title: null
