@@ -9,4 +9,5 @@ our_funding: yes
 faculty_advisor: William Horton
 college: "Weinberg College of Arts and Sciences"
 doi: 10.21985/n2-wbzx-gy74
+subject: "Social Sciences"
 ---
