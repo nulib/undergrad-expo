@@ -9,4 +9,5 @@ senior_thesis: no
 our_funding: yes
 faculty_advisor: Dr. Alexandria Volkening
 doi: 10.21985/n2-9pqb-zz27
+subject: "Social Sciences"
 ---

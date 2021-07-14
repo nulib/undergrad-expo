@@ -10,4 +10,5 @@ our_funding: no
 faculty_advisor: Shalini Shankar
 college: "Weinberg College of Arts and Sciences"
 doi: 10.21985/n2-49ff-d293
+subject: "Social Sciences"
 ---

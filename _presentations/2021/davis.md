@@ -9,4 +9,5 @@ our_funding: yes
 faculty_advisor: Neha Kamat
 doi: 10.21985/n2-9dmh-0e45
 college: "McCormick School of Engineering"
+subject: "Engineering"
 ---

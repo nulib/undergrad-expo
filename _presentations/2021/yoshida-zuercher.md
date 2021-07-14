@@ -9,4 +9,5 @@ our_funding: yes
 faculty_advisor: Professor Masaya Yoshida
 doi: 10.21985/n2-hnnz-ds43
 college: "Weinberg College of Arts and Sciences"
+subject: "Social Sciences"
 ---
